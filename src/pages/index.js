@@ -179,7 +179,7 @@ const IndexPage = () => {
   return (
     <div className="container">
       <h1 style={{textAlign: "center"}}>My Calculator</h1>
-      <div style={{width: "400px", margin: "20px auto"}}>
+      <div style={{maxWidth: "400px", margin: "20px auto"}}>
         <div style={{width: "398.2px", height: "100px",backgroundColor: "lightpink", border: "solid black 0.5px"}}>
           <h1 style={{textAlign: "right"}}>{displayScreen}</h1>
         </div>
